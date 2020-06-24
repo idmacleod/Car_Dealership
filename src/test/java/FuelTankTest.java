@@ -29,7 +29,7 @@ public class FuelTankTest {
 
     @Test
     public void canFillUp() {
-        fuelTank.fillUp(50);
+        fuelTank.fillUp();
         assertEquals(50, fuelTank.getFuelLevel());
     }
 
