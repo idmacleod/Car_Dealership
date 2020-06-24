@@ -9,7 +9,7 @@ public class FuelTankTest {
 
     @Before
     public void before() {
-        fuelTank = new FuelTank("Diesel", 100);
+        fuelTank = new FuelTank("Diesel", 100, 0);
     }
 
     @Test
@@ -23,5 +23,18 @@ public class FuelTankTest {
     }
 
     @Test
-    public
+    public void fuelLevelStartsAtZero() {
+        assertEquals(0, fuelTank.getFuelLevel());
+    }
+
+    @Test
+    public void canFillUp() {
+        fuelTank.fillUp(50);
+        assertEquals(50, fuelTank.getFuelLevel());
+    }
+
+    @Test
+    public void canUseFuel() {
+
+    }
 }
