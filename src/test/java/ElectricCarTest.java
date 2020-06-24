@@ -48,7 +48,7 @@ public class ElectricCarTest {
 
     @Test
     public void damageCannotExceedPrice() {
-        electricCar.addDamage(30000);
+        electricCar.addDamage(31000);
         assertEquals(0, electricCar.getDamage());
         assertEquals(30000, electricCar.getPrice());
     }
@@ -56,5 +56,29 @@ public class ElectricCarTest {
     @Test
     public void hasEngine() {
         assertEquals(engine, electricCar.getEngine());
+    }
+
+    @Test
+    public void hasFullChargeLevel(){
+        assertEquals(100, electricCar.getChargeLevel());
+    }
+
+    @Test
+    public void canUseCharge(){
+        electricCar.useCharge(40);
+        assertEquals(60, electricCar.getChargeLevel());
+    }
+
+    @Test
+    public void cannotUseChargeIfLow(){
+        electricCar.useCharge(120);
+        assertEquals(100, electricCar.getChargeLevel());
+    }
+
+    @Test
+    public void canRecharge(){
+        electricCar.useCharge(20);
+        electricCar.recharge();
+        assertEquals(100, electricCar.getChargeLevel());
     }
 }

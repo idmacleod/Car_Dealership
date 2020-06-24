@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0328aee-1350-4211-8cdf-14bb0ffaabb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/ElectricCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/ElectricCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ElectricCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ElectricCarTest.java" afterDir="false" />
     </list>
@@ -40,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.CarTest">
+  <component name="RunManager" selected="JUnit.ElectricCarTest">
     <configuration name="BicycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CarComposition" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,6 +68,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ElectricCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarComposition" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ElectricCarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FuelTankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CarComposition" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,23 +86,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuelTankTest.cantUseFuelIfLow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CarComposition" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FuelTankTest" />
-      <option name="METHOD_NAME" value="cantUseFuelIfLow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ElectricCarTest" />
         <item itemvalue="JUnit.CarTest" />
         <item itemvalue="JUnit.CarTest.hasEngine" />
         <item itemvalue="JUnit.BicycleTest" />
         <item itemvalue="JUnit.FuelTankTest" />
-        <item itemvalue="JUnit.FuelTankTest.cantUseFuelIfLow" />
       </list>
     </recent_temporary>
   </component>

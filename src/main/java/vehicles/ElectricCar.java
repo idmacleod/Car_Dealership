@@ -1,6 +1,9 @@
 package vehicles;
 
+import parts.Engine;
+
 public class ElectricCar extends MotorVehicle {
+
     private int chargeLevel;
 
     public ElectricCar(String manufacturer, String model, int price, Engine engine) {
@@ -12,5 +15,14 @@ public class ElectricCar extends MotorVehicle {
         return this.chargeLevel;
     }
 
-    public void useCharge(int amount)
+    public void useCharge(int amount) {
+        if (amount <= getChargeLevel()) {
+            this.chargeLevel -= amount;
+        }
+    }
+
+    public void recharge() {
+        this.chargeLevel = 100;
+    }
+
 }
