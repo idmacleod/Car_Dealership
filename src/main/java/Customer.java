@@ -40,6 +40,7 @@ public class Customer {
     }
 
     public void buy(Vehicle vehicle){
+        if (vehicle.getPrice() < this.money)
         addToVehicles(vehicle);
         spendMoney(vehicle.getPrice());
     }

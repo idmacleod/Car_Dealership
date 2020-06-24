@@ -78,4 +78,12 @@ public class CustomerTest {
         assertEquals(95000, customer.getMoney());
     }
 
+    @Test
+    public void cannotBuyVehicleYouCannotAfford() {
+        Bicycle goldenBicycle = new Bicycle("Raleigh", "Bullion", 500000);
+        customer.buy(goldenBicycle);
+        assertEquals(2, customer.getVehicleCount());
+        assertEquals(100000, customer.getMoney());
+    }
+
 }

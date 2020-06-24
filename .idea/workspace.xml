@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0328aee-1350-4211-8cdf-14bb0ffaabb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.All in CarComposition">
+  <component name="RunManager" selected="JUnit.CustomerTest.cannotBuyVehicleYouCannotAfford">
     <configuration name="All in CarComposition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CarComposition" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,21 +57,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerTest.cannotBuyVehicleYouCannotAfford" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarComposition" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" value="cannotBuyVehicleYouCannotAfford" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerTest.cannotSpendMoreThanYouHave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CarComposition" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CustomerTest" />
       <option name="METHOD_NAME" value="cannotSpendMoreThanYouHave" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElectricCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CarComposition" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ElectricCarTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest.cannotBuyVehicleYouCannotAfford" />
         <item itemvalue="JUnit.All in CarComposition" />
         <item itemvalue="JUnit.CustomerTest.cannotSpendMoreThanYouHave" />
         <item itemvalue="JUnit.CustomerTest" />
         <item itemvalue="JUnit.HybridCarTest" />
-        <item itemvalue="JUnit.ElectricCarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -129,21 +130,21 @@
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="551" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593004402877" />
-    <state width="1499" height="2" key="GridCell.Tab.0.bottom" timestamp="1593005655180">
+    <state width="1499" height="286" key="GridCell.Tab.0.bottom" timestamp="1593005682715">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1499" height="2" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005655180" />
-    <state width="1499" height="2" key="GridCell.Tab.0.center" timestamp="1593005655179">
+    <state width="1499" height="286" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005682715" />
+    <state width="1499" height="286" key="GridCell.Tab.0.center" timestamp="1593005682714">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1499" height="2" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005655179" />
-    <state width="1499" height="2" key="GridCell.Tab.0.left" timestamp="1593005655178">
+    <state width="1499" height="286" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005682714" />
+    <state width="1499" height="286" key="GridCell.Tab.0.left" timestamp="1593005682713">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1499" height="2" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005655178" />
-    <state width="1499" height="2" key="GridCell.Tab.0.right" timestamp="1593005655179">
+    <state width="1499" height="286" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005682713" />
+    <state width="1499" height="286" key="GridCell.Tab.0.right" timestamp="1593005682714">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1499" height="2" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005655179" />
+    <state width="1499" height="286" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005682714" />
   </component>
 </project>
