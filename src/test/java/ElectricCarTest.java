@@ -1,7 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
 import parts.Engine;
-import vehicles.Car;
 import vehicles.ElectricCar;
 
 import static org.junit.Assert.assertEquals;
