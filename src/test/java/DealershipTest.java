@@ -125,6 +125,8 @@ public class DealershipTest {
     public void cannotSellVehicleIfNotInStock(){
         HybridCar newHybridCar = new HybridCar("Nissan", "Micra", 20000, engine3, fuelTank1);
         dealership.sellToCustomer(newHybridCar, customer);
+        assertEquals(50000, customer.getMoney());
+        assertEquals(1, customer.getVehicleCount());
         assertEquals(500000, dealership.getTill());
         assertEquals(3, dealership.getStockCount());
     }
