@@ -30,11 +30,13 @@ public class FuelTankTest {
     @Test
     public void canFillUp() {
         fuelTank.fillUp();
-        assertEquals(50, fuelTank.getFuelLevel());
+        assertEquals(100, fuelTank.getFuelLevel());
     }
 
     @Test
     public void canUseFuel() {
-
+        fuelTank.fillUp();
+        fuelTank.useFuel(20);
+        assertEquals(80, fuelTank.getFuelLevel());
     }
 }

@@ -18,4 +18,14 @@ public class EngineTest {
         assertEquals(500, engine.getHorsepower());
     }
 
+    @Test
+    public void canStart(){
+        assertEquals("Vroom", engine.start());
+    }
+
+    @Test
+    public void canStop(){
+        assertEquals("*Silence*", engine.stop());
+    }
+
 }
