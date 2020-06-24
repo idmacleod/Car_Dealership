@@ -38,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.EngineTest">
+  <component name="RunManager" selected="JUnit.FuelTankTest">
     <configuration name="EngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CarComposition" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,10 +57,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FuelTankTest.cantUseFuelIfLow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarComposition" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FuelTankTest" />
+      <option name="METHOD_NAME" value="cantUseFuelIfLow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EngineTest" />
         <item itemvalue="JUnit.FuelTankTest" />
+        <item itemvalue="JUnit.FuelTankTest.cantUseFuelIfLow" />
+        <item itemvalue="JUnit.EngineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -90,21 +101,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="883" height="266" key="GridCell.Tab.0.bottom" timestamp="1592998281171">
+    <state width="883" height="266" key="GridCell.Tab.0.bottom" timestamp="1592998507274">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="883" height="266" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998281171" />
-    <state width="883" height="266" key="GridCell.Tab.0.center" timestamp="1592998281170">
+    <state width="883" height="266" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998507274" />
+    <state width="883" height="266" key="GridCell.Tab.0.center" timestamp="1592998507272">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="883" height="266" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998281170" />
-    <state width="883" height="266" key="GridCell.Tab.0.left" timestamp="1592998281170">
+    <state width="883" height="266" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998507272" />
+    <state width="883" height="266" key="GridCell.Tab.0.left" timestamp="1592998507269">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="883" height="266" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998281170" />
-    <state width="883" height="266" key="GridCell.Tab.0.right" timestamp="1592998281170">
+    <state width="883" height="266" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998507269" />
+    <state width="883" height="266" key="GridCell.Tab.0.right" timestamp="1592998507273">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="883" height="266" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998281170" />
+    <state width="883" height="266" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998507273" />
   </component>
 </project>
