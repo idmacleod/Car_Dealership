@@ -53,6 +53,9 @@ public class CarTest {
         assertEquals(24000, car.getPrice());
     }
 
-
+    @Test
+    public void hasEngine() {
+        assertEquals(engine, car.getEngine());
+    }
 
 }
