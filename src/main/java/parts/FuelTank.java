@@ -6,10 +6,10 @@ public class FuelTank {
     private int capacity;
     private int fuelLevel;
 
-    public FuelTank(String fuelType, int capacity, int fuelLevel){
+    public FuelTank(String fuelType, int capacity){
         this.fuelType = fuelType;
         this.capacity = capacity;
-        this.fuelLevel = fuelLevel;
+        this.fuelLevel = 0;
     }
 
     public String getFuelType(){

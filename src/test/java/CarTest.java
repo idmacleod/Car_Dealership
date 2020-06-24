@@ -1,6 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 import parts.Engine;
+import parts.FuelTank;
 import vehicles.Car;
 
 import static org.junit.Assert.assertEquals;
@@ -8,12 +9,14 @@ import static org.junit.Assert.assertEquals;
 public class CarTest {
 
     private Engine engine;
+    private FuelTank fuelTank;
     private Car car;
 
     @Before
     public void before() {
         engine = new Engine(140);
-        car = new Car("Ford", "Mondeo", 24000, engine);
+        fuelTank = new FuelTank("Unleaded", 100);
+        car = new Car("Ford", "Mondeo", 24000, engine, fuelTank);
     }
 
     @Test
@@ -58,4 +61,8 @@ public class CarTest {
         assertEquals(engine, car.getEngine());
     }
 
+    @Test
+    public void hasFuelTank() {
+        assertEquals(fuelTank, car.getFuelTank());
+    }
 }

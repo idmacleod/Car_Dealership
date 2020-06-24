@@ -9,7 +9,7 @@ public class FuelTankTest {
 
     @Before
     public void before() {
-        fuelTank = new FuelTank("Diesel", 100, 0);
+        fuelTank = new FuelTank("Diesel", 100);
     }
 
     @Test
