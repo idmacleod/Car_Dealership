@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0328aee-1350-4211-8cdf-14bb0ffaabb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/parts/FuelTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parts/FuelTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FuelTankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FuelTankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parts/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parts/Engine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.EngineTest">
+    <configuration name="EngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarComposition" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EngineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FuelTankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CarComposition" />
       <option name="PACKAGE_NAME" value="" />
@@ -51,6 +59,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EngineTest" />
         <item itemvalue="JUnit.FuelTankTest" />
       </list>
     </recent_temporary>
@@ -79,5 +88,23 @@
       <updated>1592996908820</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="883" height="266" key="GridCell.Tab.0.bottom" timestamp="1592998281171">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="883" height="266" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998281171" />
+    <state width="883" height="266" key="GridCell.Tab.0.center" timestamp="1592998281170">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="883" height="266" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998281170" />
+    <state width="883" height="266" key="GridCell.Tab.0.left" timestamp="1592998281170">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="883" height="266" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998281170" />
+    <state width="883" height="266" key="GridCell.Tab.0.right" timestamp="1592998281170">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="883" height="266" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592998281170" />
   </component>
 </project>

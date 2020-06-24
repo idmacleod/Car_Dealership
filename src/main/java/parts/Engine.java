@@ -11,4 +11,12 @@ public class Engine {
     public int getHorsepower(){
         return this.horsepower;
     }
+
+    public String start(){
+        return "Vroom";
+    }
+
+    public String stop(){
+        return "*Silence*";
+    }
 }
