@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 public class EngineTest {
 
-    Engine engine;
+    private Engine engine;
 
     @Before
     public void before() {
