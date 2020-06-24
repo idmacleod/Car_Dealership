@@ -1,3 +1,9 @@
+import org.junit.Before;
+import org.junit.Test;
+import vehicles.Bicycle;
+
+import static org.junit.Assert.assertEquals;
+
 public class BicycleTest {
     private Bicycle bicycle;
 
@@ -8,6 +14,16 @@ public class BicycleTest {
 
     @Test
     public void hasManufacturer() {
-        assert
+        assertEquals("Raleigh", bicycle.getManufacturer());
+    }
+
+    @Test
+    public void hasModel() {
+        assertEquals("Motus", bicycle.getModel());
+    }
+
+    @Test
+    public void Price() {
+
     }
 }
