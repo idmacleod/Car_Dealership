@@ -30,7 +30,25 @@ public class BicycleTest {
     
     @Test
     public void canAddDamage() {
-  c yl e  byc
+        bicycle.addDamage(500);
+        assertEquals(500, bicycle.getDamage());
+        assertEquals(1500, bicycle.getPrice());
+    }
+
+    @Test
+    public void canRepair() {
+        bicycle.addDamage(500);
+        bicycle.repairDamage();
+        assertEquals(0, bicycle.getDamage());
+        assertEquals(2000, bicycle.getPrice());
+    }
+
+    @Test
+    public void damageCannotExceedPrice() {
+        bicycle.addDamage(500);
+        bicycle.repair();
+        assertEquals(0, bicycle.getDamage());
+        assertEquals(2000, bicycle.getPrice());
     }
 
 }
