@@ -48,20 +48,22 @@ public class Dealership {
         }
     }
 
-    public void removeFromStock(MotorVehicle motorVehicle) {
+    public MotorVehicle removeFromStock(MotorVehicle motorVehicle) {
         if (this.stock.contains(motorVehicle)) {
             this.stock.remove(motorVehicle);
+            return motorVehicle;
         }
+        return null;
     }
 
     public void receiveMoney(int money) {
         this.till += money;
     }
 
-    public void sell(MotorVehicle motorVehicle) {
+    public void sellToCustomer(MotorVehicle motorVehicle, Customer customer) {
         if (this.stock.contains(motorVehicle)) {
             receiveMoney(motorVehicle.getPrice());
-            removeFromStock(motorVehicle);
+            customer.buy(removeFromStock(motorVehicle));
         }
     }
 

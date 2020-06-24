@@ -21,6 +21,9 @@ public class DealershipTest {
     private HybridCar hybridCar;
     private ElectricCar electricCar;
     private Car car;
+    private Customer customer;
+    private Bicycle bicycle;
+    private ArrayList<Vehicle> vehicles;
 
     @Before
     public void before(){
@@ -32,7 +35,11 @@ public class DealershipTest {
         electricCar = new ElectricCar("Ford", "Focus", 25000, engine1);
         hybridCar = new HybridCar("Nissan", "Micra", 35000, engine2, fuelTank1);
         car = new Car("Renault", "5", 40000, engine3, fuelTank2);
+        bicycle = new Bicycle("Raleigh", "Motus", 2000);
         stock = new ArrayList<MotorVehicle>();
+        vehicles = new ArrayList<Vehicle>();
+        Collections.addAll(vehicles, bicycle);
+        customer = new Customer("Danny", 50000, vehicles);
         Collections.addAll(stock, electricCar, hybridCar, car);
         dealership = new Dealership("Donny's Dynamite Dealership", 500000, stock);
     }
@@ -100,7 +107,9 @@ public class DealershipTest {
 
     @Test
     public void canSellVehicle(){
-        dealership.sell(car);
+        dealership.sellToCustomer(car, customer);
+        assertEquals(10000, customer.getMoney());
+        assertEquals(2, customer.getVehicleCount());
         assertEquals(540000, dealership.getTill());
         assertEquals(2, dealership.getStockCount());
     }
@@ -115,7 +124,7 @@ public class DealershipTest {
     @Test
     public void cannotSellVehicleIfNotInStock(){
         HybridCar newHybridCar = new HybridCar("Nissan", "Micra", 20000, engine3, fuelTank1);
-        dealership.sell(newHybridCar);
+        dealership.sellToCustomer(newHybridCar, customer);
         assertEquals(500000, dealership.getTill());
         assertEquals(3, dealership.getStockCount());
     }
@@ -128,4 +137,5 @@ public class DealershipTest {
         assertEquals(20000, newHybridCar.getPrice());
         assertEquals(0, newHybridCar.getDamage());
     }
+
 }
