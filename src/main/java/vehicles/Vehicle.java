@@ -7,11 +7,11 @@ public abstract class Vehicle {
     private int price;
     private int damage;
 
-    public Vehicle(String manufacturer, String model, int price, int damage){
+    public Vehicle(String manufacturer, String model, int price){
         this.manufacturer = manufacturer;
         this.model = model;
         this.price = price;
-        this.damage = damage;
+        this.damage = 0;
     }
 
     public String getManufacturer(){
@@ -23,7 +23,7 @@ public abstract class Vehicle {
     }
 
     public int getPrice(){
-        return this.price;
+        return this.price - this.damage;
     }
 
     public int getDamage(){
@@ -31,16 +31,13 @@ public abstract class Vehicle {
     }
 
     public void addDamage(int damage){
-        this.damage += damage;
+        if (damage <= getPrice()) {
+            this.damage += damage;
+        }
     }
 
-    public void repairDamage(int damage){
-        this.damage -= damage;
+    public void repairDamage(){
+        this.damage = 0;
     }
-
-    public void reducePrice(int reduction){
-        this.price -= reduction;
-    }
-
 
 }

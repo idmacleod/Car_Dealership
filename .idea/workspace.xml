@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0328aee-1350-4211-8cdf-14bb0ffaabb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicles/MotorVehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/MotorVehicles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/Bicycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BicycleTest.java" afterDir="false" />
     </list>
@@ -42,7 +41,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.FuelTankTest">
+  <component name="RunManager" selected="JUnit.BicycleTest">
+    <configuration name="BicycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarComposition" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BicycleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CarComposition" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BicycleTest" />
         <item itemvalue="JUnit.FuelTankTest" />
         <item itemvalue="JUnit.FuelTankTest.cantUseFuelIfLow" />
         <item itemvalue="JUnit.EngineTest" />

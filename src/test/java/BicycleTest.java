@@ -5,6 +5,7 @@ import vehicles.Bicycle;
 import static org.junit.Assert.assertEquals;
 
 public class BicycleTest {
+
     private Bicycle bicycle;
 
     @Before
@@ -23,7 +24,13 @@ public class BicycleTest {
     }
 
     @Test
-    public void Price() {
-
+    public void hasPrice() {
+        assertEquals(2000, bicycle.getPrice());
     }
+    
+    @Test
+    public void canAddDamage() {
+  c yl e  byc
+    }
+
 }
