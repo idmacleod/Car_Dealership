@@ -35,6 +35,7 @@ public class Customer {
     }
 
     public void spendMoney(int money){
+        if (money < this.money)
         this.money -= money;
     }
 
