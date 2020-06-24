@@ -29,6 +29,8 @@ public class FuelTank {
     }
 
     public void useFuel(int amount){
-        this.fuelLevel -= amount;
+        if (amount <= getFuelLevel()) {
+            this.fuelLevel -= amount;
+        }
     }
 }

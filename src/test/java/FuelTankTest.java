@@ -39,4 +39,11 @@ public class FuelTankTest {
         fuelTank.useFuel(20);
         assertEquals(80, fuelTank.getFuelLevel());
     }
+
+    @Test
+    public void cantUseFuelIfLow(){
+        fuelTank.fillUp();
+        fuelTank.useFuel(120);
+        assertEquals(100, fuelTank.getFuelLevel());
+    }
 }
