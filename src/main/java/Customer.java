@@ -35,12 +35,12 @@ public class Customer {
     }
 
     public void spendMoney(int money){
-        if (money < this.money)
+        if (money <= this.money)
         this.money -= money;
     }
 
     public void buy(Vehicle vehicle){
-        if (vehicle.getPrice() < this.money)
+        if (vehicle.getPrice() <= this.money)
         addToVehicles(vehicle);
         spendMoney(vehicle.getPrice());
     }

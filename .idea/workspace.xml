@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0328aee-1350-4211-8cdf-14bb0ffaabb4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dealership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DealershipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DealershipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dealership.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dealership.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DealershipTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DealershipTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest.cannotBuyVehicleYouCannotAfford">
+  <component name="RunManager" selected="JUnit.DealershipTest">
     <configuration name="All in CarComposition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CarComposition" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,10 +82,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HybridCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CarComposition" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HybridCarTest" />
+      <option name="MAIN_CLASS_NAME" value="DealershipTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DealershipTest" />
         <item itemvalue="JUnit.CustomerTest.cannotBuyVehicleYouCannotAfford" />
         <item itemvalue="JUnit.All in CarComposition" />
         <item itemvalue="JUnit.CustomerTest.cannotSpendMoreThanYouHave" />
         <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="JUnit.HybridCarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -130,21 +135,21 @@
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="551" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593004402877" />
-    <state width="1499" height="286" key="GridCell.Tab.0.bottom" timestamp="1593005682715">
+    <state width="1594" height="90" key="GridCell.Tab.0.bottom" timestamp="1593007644723">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1499" height="286" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005682715" />
-    <state width="1499" height="286" key="GridCell.Tab.0.center" timestamp="1593005682714">
+    <state width="1594" height="90" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593007644723" />
+    <state width="1594" height="90" key="GridCell.Tab.0.center" timestamp="1593007644720">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1499" height="286" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005682714" />
-    <state width="1499" height="286" key="GridCell.Tab.0.left" timestamp="1593005682713">
+    <state width="1594" height="90" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593007644720" />
+    <state width="1594" height="90" key="GridCell.Tab.0.left" timestamp="1593007644709">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1499" height="286" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005682713" />
-    <state width="1499" height="286" key="GridCell.Tab.0.right" timestamp="1593005682714">
+    <state width="1594" height="90" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593007644709" />
+    <state width="1594" height="90" key="GridCell.Tab.0.right" timestamp="1593007644722">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1499" height="286" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593005682714" />
+    <state width="1594" height="90" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593007644722" />
   </component>
 </project>
